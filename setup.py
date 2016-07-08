@@ -1,8 +1,14 @@
 from setuptools import setup
 
+
+def readme():
+    with open('README.md') as f:
+        return f.read()
+
 setup(name='dbf2csv',
         version='0.1',
         description='A straightforward lib to convert dbf files into csv',
+        long_description=readme(),
         url='http://github.com/israelst/dbf2csv',
         author='Israel Teixeira',
         author_email='israelst@gmail.com',
