@@ -22,6 +22,9 @@ setup(name='dbf2csv',
             'Topic :: Utilities',
             ],
         license='GPLv3+',
+        install_requires=[
+            'dbfread',
+        ],
         packages=['dbf2csv'],
         include_package_data=True,
         zip_safe=False)
