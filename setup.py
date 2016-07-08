@@ -26,5 +26,6 @@ setup(name='dbf2csv',
             'dbfread',
         ],
         packages=['dbf2csv'],
+        scripts=['bin/dbf2csv'],
         include_package_data=True,
         zip_safe=False)
